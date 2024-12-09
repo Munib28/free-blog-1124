@@ -25,6 +25,7 @@ export default function DashSidebar() {
       setTab(tabFromUrl);
     }
   }, [location.search]);
+
   const handleSignout = async () => {
     try {
       const res = await fetch('/api/user/signout', {
@@ -40,6 +41,7 @@ export default function DashSidebar() {
       console.log(error.message);
     }
   };
+  
   return (
     <Sidebar className='w-full md:w-56'>
       <Sidebar.Items>
