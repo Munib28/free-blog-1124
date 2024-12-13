@@ -1,4 +1,4 @@
-import { Alert, Button, Modal, ModalBody, TextInput } from "flowbite-react";
+import { Alert, Button, Modal, TextInput } from "flowbite-react";
 import { useEffect, useRef, useState } from "react";
 import { useSelector } from "react-redux";
 import {
@@ -236,9 +236,9 @@ export default function DashProfile() {
         />
         <Button
           type="submit"
-          gradientDuoTone="purpleToBlue"
+          gradientDuoTone="cyanToBlue"
           outline
-          // disabled={loading || imageFileUploading}
+          disabled={loading || imageFileUploading}
         >
           {loading ? "Loading..." : "Update"}
         </Button>
@@ -246,7 +246,7 @@ export default function DashProfile() {
           <Link to={"/create-post"}>
             <Button
               type="button"
-              gradientDuoTone="greenToBlue"
+              gradientDuoTone="purpleToBlue"
               className="w-full"
             >
               Create a post

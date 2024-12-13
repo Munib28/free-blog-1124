@@ -28,6 +28,9 @@ export default function About() {
               each other grow and improve.
             </p>
           </div>
+          <div className="mt-5 flex-1">
+            <img className='rounded-lg' src="https://images.pexels.com/photos/1266808/pexels-photo-1266808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+        </div>
         </div>
       </div>
     </div>
