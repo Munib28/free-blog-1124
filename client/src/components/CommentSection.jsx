@@ -15,7 +15,7 @@ export default function CommentSection({ postId }) {
   const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (comment.length > 200) {
+    if (comment.length > 1000) {
       return;
     }
     try {
@@ -143,13 +143,13 @@ export default function CommentSection({ postId }) {
           <Textarea
             placeholder='Add a comment...'
             rows='3'
-            maxLength='200'
+            maxLength='1000'
             onChange={(e) => setComment(e.target.value)}
             value={comment}
           />
           <div className='flex justify-between items-center mt-5'>
             <p className='text-gray-500 text-xs'>
-              {200 - comment.length} characters remaining
+              {1000 - comment.length} characters remaining
             </p>
             <Button outline gradientDuoTone='purpleToBlue' type='submit'>
               Submit
