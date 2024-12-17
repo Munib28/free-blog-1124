@@ -50,16 +50,7 @@ export default function About() {
               JavaScript can be used on both the client side and the server
               side, making it a key technology in modern web development.
               Client-Side JavaScript: This is used to create interactive and
-              dynamic user interfaces. It runs in the web browser and allows
-              developers to add interactivity to web pages, such as form
-              validation, animations, and real-time content updates. Popular
-              front-end frameworks and libraries like React, Angular, and
-              Vue.jsare built on JavaScript, helping developers build complex
-              user interfaces more efficiently. Server-Side JavaScript: With the
-              introduction of Node.js, JavaScript can also be used for
-              server-side development. Node.jsis a runtime environment that
-              allows developers to run JavaScript on the server, enabling the
-              creation of scalable and high-performance web applications.
+              dynamic user interfaces. 
               Express.jsis a popular framework for building server-side
               applications with Node.js. JavaScript Ecosystem: JavaScript has a
               rich ecosystem with a vast array of libraries, frameworks, and
