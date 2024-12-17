@@ -79,10 +79,7 @@ export default function About() {
               linked, with JavaScript serving as a cornerstone of both front-end
               and back-end development. As the web continues to evolve, the
               importance of JavaScript and web development skills will only
-              grow, making it a vital area for developers to master. Whether
-              you're building a simple static website or a complex web
-              application, JavaScript provides the tools and capabilities needed
-              to bring your projects to life.
+              grow, making it a vital area for developers to master.
             </p>
           </div>
         </div>
